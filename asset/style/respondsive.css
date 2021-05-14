@@ -1,0 +1,35 @@
+@media(max-width: 1100px) and (min-width: 870px) {
+    .video-cotainer {
+        width: 33.33333%;
+    }
+    .menu-btn {
+        position: relative;
+        top: 15px;
+    }
+    .yt-logo {
+        top: -10px;
+        position: relative;
+        margin-left: 50px;
+    }
+}
+@media(max-width: 869px) and (min-width: 500px) {
+    .video-cotainer {
+        width: 50%;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .yt-logo {
+    }
+    .container-menu {
+        display: none;
+    }
+    .search-bar {
+        display: none;
+    }
+}
+@media(max-width: 499px) {
+    .video-cotainer {
+        width: 100%;
+    }
+}
